@@ -1,0 +1,17 @@
+{
+  "name": "jesting-with-js",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npx jest",
+    "jest": "set NODE_OPTIONS=--no-warnings --experimental-vm-modules&& npx jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
